@@ -212,5 +212,4 @@ database_path = 'card.s3db'
 create_database()
 conn = sqlite3.connect(database_path)
 cursor = conn.cursor()
-is_available('meu')
 show_main()
